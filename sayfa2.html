@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <title>Görüş Bildir - Yüzüklerin Efendisi</title>
+  <link rel="stylesheet" href="stil.css">
+</head>
+<body>
+  <header>
+    <h1>Yüzüklerin Efendisi</h1>
+    <nav>
+      <ul class="menu">
+        <li><a href="index.html">Ana Sayfa</a></li>
+        <li><a href="sayfa1.html">Karakterler</a></li>
+        <li><a href="sayfa2.html">Görüş Bildir</a></li>
+        <li><a href="sayfa3.html">Video & Müzik</a></li>
+		<li><a href="hakkimda.html">Hakkımda</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section>
+    <h2>Görüşlerinizi Bildirin</h2> <!-- geridönüş alanı -->
+
+    <form action="#" method="post" style="width: 50%; margin: 0 auto; text-align: left;">
+      <label for="ad">Adınız:</label><br>
+      <input type="text" id="ad" name="ad" required placeholder="Adınızı yazın"><br><br>
+
+      <label for="email">E-posta:</label><br>
+      <input type="email" id="email" name="email" required placeholder="E-posta adresiniz"><br><br>
+
+      <label for="mesaj">Görüşünüz:</label><br>
+      <textarea id="mesaj" name="mesaj" rows="5" cols="40" placeholder="Yorumlarınızı buraya yazabilirsiniz..."></textarea><br><br>
+
+      <input type="submit" value="Gönder">
+      <input type="reset" value="Temizle">
+    </form>
+  </section>
+</body>
+</html>

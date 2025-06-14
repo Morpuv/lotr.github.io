@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <title>Yüzüklerin Efendisi</title>
+  <link rel="stylesheet" href="stil.css">
+</head>
+<body>
+  <header>
+    <h1>Yüzüklerin Efendisi</h1>
+    <nav>
+      <ul class="menu">
+  <li><a href="index.html">Ana Sayfa</a></li>
+  <li><a href="sayfa1.html">Karakterler</a></li>
+  <li><a href="sayfa2.html">Görüş Bildir</a></li>
+  <li><a href="sayfa3.html">Video & Müzik</a></li>
+</ul>
+
+    </nav>
+  </header>
+
+  <section>
+    <img src="dosyalar/resimler/lotr-poster.jpg" alt="Yüzüklerin Efendisi Poster" width="400">
+    <p>
+      Yüzüklerin Efendisi, J.R.R. Tolkien'in kaleme aldığı epik fantezi roman serisidir. Aynı zamanda Peter Jackson tarafından 
+      sinemaya uyarlanmış üçlemesiyle milyonlarca kişiyi etkilemiştir.
+    </p>
+  </section>
+</body>
+</html>

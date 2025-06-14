@@ -1,0 +1,46 @@
+
+/* Genel arka plan ayarları */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f1ec;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  
+  font-family: Arial, sans-serif;
+  background-image: url("dosyalar/resimler/arkaplan.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  color: white; 
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #2d2d2d;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.menu {
+  list-style-type: none;
+  padding: 0;
+  margin: 10px 0;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.menu li a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+section {
+  padding: 20px;
+  text-align: center;
+}
