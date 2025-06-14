@@ -39,6 +39,13 @@ header {
   color: white;
   font-weight: bold;
 }
+.menu li a:hover{
+	color:yellow;
+}
+.menu li a.active {
+  color: red;
+}
+
 
 section {
   padding: 20px;
